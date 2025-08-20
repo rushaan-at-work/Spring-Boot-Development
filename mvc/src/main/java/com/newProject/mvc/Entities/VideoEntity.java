@@ -12,7 +12,7 @@ public class VideoEntity {
     private String description;
 
     // For JPA
-    protected VideoEntity(){
+    public VideoEntity(){
         this(null, null);
     }
 
