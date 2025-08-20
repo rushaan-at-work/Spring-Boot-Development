@@ -1,5 +1,10 @@
-package com.newProject.mvc;
+package com.newProject.mvc.Services;
 
+import com.newProject.mvc.Records.UniversalSearch;
+import com.newProject.mvc.Records.Video;
+import com.newProject.mvc.Records.VideoSearch;
+import com.newProject.mvc.Entities.VideoEntity;
+import com.newProject.mvc.Repsitories.VideoRepository;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.stereotype.Service;
@@ -8,8 +13,6 @@ import org.springframework.util.StringUtils;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
-import static org.antlr.v4.runtime.tree.xpath.XPath.findAll;
 
 
 @Service

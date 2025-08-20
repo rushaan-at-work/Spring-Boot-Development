@@ -1,6 +1,6 @@
-package com.newProject.mvc;
+package com.newProject.mvc.Repsitories;
 
-import org.springframework.data.domain.Example;
+import com.newProject.mvc.Entities.VideoEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

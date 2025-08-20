@@ -1,4 +1,4 @@
-package com.newProject.mvc;
+package com.newProject.mvc.Entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

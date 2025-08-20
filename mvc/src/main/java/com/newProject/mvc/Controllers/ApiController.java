@@ -1,6 +1,7 @@
-package com.newProject.mvc;
+package com.newProject.mvc.Controllers;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.newProject.mvc.Records.Video;
+import com.newProject.mvc.Services.VideoService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

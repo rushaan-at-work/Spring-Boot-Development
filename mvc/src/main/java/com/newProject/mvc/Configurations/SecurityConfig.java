@@ -1,4 +1,4 @@
-package com.newProject.mvc;
+package com.newProject.mvc.Configurations;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
